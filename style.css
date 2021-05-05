@@ -1,0 +1,117 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+#header{
+    font-size: 35px;
+    font-weight: bold;
+display: flex;
+justify-content: center;
+margin:50px;
+
+}
+body{
+    background: #ebebee;
+}
+.card-header{
+    padding: 25px;
+    font-weight: bold;
+    border-bottom: 1.5px solid black;
+    
+}
+.card-body{
+    background: #b0b3b0;
+    
+}
+#txtTaskName{
+    font-weight: bold;
+}
+#txtTaskName:hover{
+ color: black;
+
+}
+
+.btn:hover{
+transform: scale(1.2);
+
+}
+#btnAddNewTask:focus{
+    background: green;
+}
+i{
+  font-size: 20px;
+    
+}
+#btnDeleteAll{
+    font-weight: bold;
+}
+.list-group{
+    font-weight: bolder;
+    font-size: 25px;
+}
+.far{
+    transition: 1sn;
+  
+}
+.far:hover{
+    color: red;
+    transition: 0.4s;
+    cursor: pointer;
+ 
+    transform: scale(1.5);
+  
+  
+   
+}
+.far:focus{
+    transform: scale(1.5);
+}
+.far:active{
+  
+    transform:rotate(180deg);
+
+}
+
+#taskcard{
+    border-radius: 10px;
+    
+}
+
+.fab{
+    font-size: 50px;
+}
+.icons{
+
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+   
+    font-size: 80px;
+    
+}
+.icons li a{
+color:#336ea6;
+margin: 5px;
+display: flex;
+padding: 20px;
+
+
+
+}
+.icons li:hover{
+    opacity: 0.6;
+    color: red;
+    transition: 1.2s;
+    cursor: pointer;
+ 
+    transform:rotate(-360deg);
+  
+}
+
+
+
+a{
+    color:white;
+}
